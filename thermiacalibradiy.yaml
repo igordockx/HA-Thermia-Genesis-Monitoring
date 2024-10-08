@@ -1,0 +1,107 @@
+modbus:
+  name: thermiacalibra
+  type: tcp 
+  host: 192.168.x.x ## or create !secret inverter_ip with ip adress
+  port: 502 
+  delay: 5
+  message_wait_milliseconds: 30
+#  timeout: 50
+
+  sensors:
+    - name: Compressor Current gear
+      unit_of_measurement: " "
+      slave: 1
+      address: 61
+      input_type: input
+      data_type: int16
+      scale: 0.01
+      offset: 0
+      precision: 0
+    - name: Calculated demand Heat
+      unit_of_measurement: " "
+      slave: 1
+      address: 30
+      input_type: input
+      data_type: int16
+      scale: 0.01
+      offset: 0
+      precision: 2
+    - name: Cooling circuit supply line temperature
+      unit_of_measurement: °C
+      slave: 1
+      address: 106
+      input_type: input
+      data_type: int16
+      scale: 0.01
+      offset: 0
+      precision: 2
+    - name: Dew point High pressure temperature
+      unit_of_measurement: °C
+      slave: 1
+      address: 123
+      input_type: input
+      data_type: int16
+      scale: 0.01
+      offset: 0
+      precision: 2
+    - name: Dew point Low pressure temperature
+      unit_of_measurement: °C
+      slave: 1
+      address: 124
+      input_type: input
+      data_type: int16
+      scale: 0.01
+      offset: 0
+      precision: 2
+    - name: Low pressure side pressure
+      unit_of_measurement: barg
+      slave: 1
+      address: 127
+      input_type: input
+      data_type: int16
+      scale: 0.01
+      offset: 0
+      precision: 2
+    - name: High pressure side pressure
+      unit_of_measurement: barg
+      slave: 1
+      address: 128
+      input_type: input
+      data_type: int16
+      scale: 0.01
+      offset: 0
+      precision: 2
+    - name: Expansion valve opening degree
+      unit_of_measurement: percent
+      slave: 1
+      address: 315
+      input_type: input
+      data_type: int16
+      scale: 0.01
+      offset: 0
+    - name: Inverter temperature
+      unit_of_measurement: °C
+      slave: 1
+      address: 319
+      input_type: input
+      data_type: int16
+      scale: 1
+      offset: 0
+      precision: 2
+    - name: Outdoor temperature source
+      slave: 1
+      address: 117
+      input_type: holding
+    - name: Cooling mix valve set point
+      unit_of_measurement: percent
+      slave: 1
+      address: 30
+      input_type: holding
+      data_type: int16
+      scale: 0.01
+      offset: 0
+
+  binary_sensors:
+    - name: Cooling circuit circulation pump control signal
+      address: 236
+      input_type: discrete_input
