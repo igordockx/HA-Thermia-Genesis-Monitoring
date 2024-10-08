@@ -4,7 +4,7 @@ Home Assistant dashboard for monitoring Thermia Genesis heatpumps
 I created a 'Picture Elements' dashboard to be able to monitor the parameters of my heatpump.
 Most of the sensor data is provided through the following integration: https://github.com/CJNE/thermiagenesis
 
-The https://github.com/CJNE/thermiagenesis integration seems to support either Thermia Mega or Thermia Diplomat inverters, and is written based on Thermia Genesis platform version 10.
+The https://github.com/CJNE/thermiagenesis integration supports either Thermia Mega or Thermia Diplomat inverters, and is written based on Thermia Genesis platform version 10.
 
 I have a Calibra heatpump, which is running Genesis platform 13.
 The sensor data which is not available from the https://github.com/CJNE/thermiagenesis integration is pulled locally from the heatpump using Modbus TCP.
