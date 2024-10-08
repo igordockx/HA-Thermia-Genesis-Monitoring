@@ -1,0 +1,616 @@
+elements:
+  - entity: sensor.blank_blank
+    prefix: Outdoor
+    style:
+      left: 94%
+      top: 7%
+      color: rgb(0,0,0)
+      font-size: 90%
+      background-color: rgba(0,0,0,.0)
+      border-radius: 0%
+      text-align: center
+    type: state-label
+  - entity: sensor.outdoor_temperature
+    style:
+      left: 94%
+      top: 8%
+      color: rgb(0,0,0)
+      font-size: 90%
+      background-color: rgba(0,0,0,.0)
+      border-radius: 0%
+      text-align: center
+    type: state-label
+  - entity: sensor.blank_blank
+    prefix: Indoor
+    style:
+      left: 94%
+      top: 11%
+      color: rgb(0,0,0)
+      font-size: 90%
+      background-color: rgba(0,0,0,.0)
+      border-radius: 0%
+      text-align: center
+    type: state-label
+  - entity: sensor.gemeten_temperatuur_living_toegang
+    style:
+      left: 94%
+      top: 12%
+      color: rgb(0,0,0)
+      font-size: 90%
+    type: state-label
+  - entity: sensor.blank_blank
+    prefix: Floor
+    style:
+      left: 94%
+      top: 15%
+      color: rgb(0,0,0)
+      font-size: 90%
+      background-color: rgba(0,0,0,.0)
+      border-radius: 0%
+      text-align: center
+    type: state-label
+  - entity: sensor.room_temperature_sensor
+    style:
+      left: 94%
+      top: 16%
+      color: rgb(0,0,0)
+      font-size: 90%
+    type: state-label
+  - entity: sensor.blank_blank
+    prefix: Supply line calc
+    style:
+      left: 25%
+      top: 11%
+      color: rgb(0,0,0)
+      font-size: 90%
+      background-color: rgba(0,0,0,.0)
+      border-radius: 0%
+      text-align: center
+    type: state-label
+  - entity: sensor.system_supply_line_calculated_set_point
+    style:
+      left: 25%
+      top: 12%
+      color: rgb(0,0,0)
+      font-size: 90%
+    type: state-label
+  - entity: sensor.blank_blank
+    prefix: Hot water top
+    style:
+      left: 48%
+      top: 27%
+      color: rgb(0,0,0)
+      font-size: 90%
+      background-color: rgba(0,0,0,.0)
+      border-radius: 0%
+      text-align: center
+    type: state-label
+  - entity: sensor.tap_water_top_temperature
+    style:
+      left: 48%
+      top: 28%
+      color: rgb(0,0,0)
+      font-size: 90%
+    type: state-label
+  - entity: sensor.blank_blank
+    prefix: Hot water lower
+    style:
+      left: 48%
+      top: 30%
+      color: rgb(0,0,0)
+      font-size: 90%
+      background-color: rgba(0,0,0,.0)
+      border-radius: 0%
+      text-align: center
+    type: state-label
+  - entity: sensor.tap_water_lower_temperature
+    style:
+      left: 48%
+      top: 31%
+      color: rgb(0,0,0)
+      font-size: 90%
+    type: state-label
+  - entity: sensor.blank_blank
+    prefix: Brine in
+    style:
+      left: 3%
+      top: 67%
+      color: rgb(0,0,0)
+      font-size: 90%
+      background-color: rgba(0,0,0,.0)
+      border-radius: 0%
+      text-align: center
+    type: state-label
+  - entity: sensor.brine_in_temperature
+    style:
+      left: 3%
+      top: 68%
+      color: rgb(0,0,0)
+      font-size: 90%
+    type: state-label
+  - entity: sensor.blank_blank
+    prefix: Pump speed
+    style:
+      left: 9%
+      top: 59.5%
+      color: rgb(0,0,0)
+      font-size: 90%
+      background-color: rgba(0,0,0,.0)
+      border-radius: 0%
+      text-align: center
+    type: state-label
+  - entity: sensor.brine_circulation_pump_speed
+    style:
+      left: 9%
+      top: 60.5%
+      color: rgb(0,0,0)
+      font-size: 90%
+    type: state-label
+  - entity: sensor.blank_blank
+    prefix: Brine
+    style:
+      left: 12%
+      top: 75%
+      color: rgb(0,0,0)
+      font-size: 90%
+      background-color: rgba(0,0,0,.0)
+      border-radius: 0%
+      text-align: center
+    type: state-label
+  - entity: sensor.blank_blank
+    prefix: DeltaT
+    style:
+      left: 12%
+      top: 76%
+      color: rgb(0,0,0)
+      font-size: 90%
+      background-color: rgba(0,0,0,.0)
+      border-radius: 0%
+      text-align: center
+    type: state-label
+  - entity: sensor.brine_delta_t
+    style:
+      left: 12%
+      top: 77%
+      color: rgb(0,0,0)
+      font-size: 90%
+    type: state-label
+  - entity: sensor.blank_blank
+    prefix: Brine out
+    style:
+      left: 8%
+      top: 90%
+      color: rgb(0,0,0)
+      font-size: 90%
+      background-color: rgba(0,0,0,.0)
+      border-radius: 0%
+      text-align: center
+    type: state-label
+  - entity: sensor.brine_out_temperature
+    style:
+      left: 8%
+      top: 91%
+      color: rgb(0,0,0)
+      font-size: 90%
+    type: state-label
+  - entity: sensor.blank_blank
+    prefix: Superheat
+    style:
+      left: 27%
+      top: 59%
+      color: rgb(0,0,0)
+      font-size: 90%
+      background-color: rgba(0,0,0,.0)
+      border-radius: 0%
+      text-align: center
+    type: state-label
+  - entity: sensor.superheat_temperature
+    style:
+      left: 27%
+      top: 60%
+      color: rgb(0,0,0)
+      font-size: 90%
+    type: state-label
+  - entity: sensor.blank_blank
+    prefix: Suction line
+    style:
+      left: 30%
+      top: 68%
+      color: rgb(0,0,0)
+      font-size: 90%
+      background-color: rgba(0,0,0,.0)
+      border-radius: 0%
+      text-align: center
+    type: state-label
+  - entity: sensor.blank_blank
+    prefix: Dew point
+    style:
+      left: 20.5%
+      top: 60%
+      color: rgb(0,0,0)
+      font-size: 90%
+      background-color: rgba(0,0,0,.0)
+      border-radius: 0%
+      text-align: center
+    type: state-label
+  - entity: sensor.blank_blank
+    prefix: low press
+    style:
+      left: 20.5%
+      top: 61%
+      color: rgb(0,0,0)
+      font-size: 90%
+      background-color: rgba(0,0,0,.0)
+      border-radius: 0%
+      text-align: center
+    type: state-label
+  - entity: sensor.dew_point_low_pressure_temperature
+    style:
+      left: 20.5%
+      top: 62%
+      color: rgb(0,0,0)
+      font-size: 90%
+    type: state-label
+  - entity: sensor.blank_blank
+    prefix: Low-press-
+    style:
+      left: 46%
+      top: 77%
+      color: rgb(0,0,0)
+      font-size: 90%
+      background-color: rgba(0,0,0,.0)
+      border-radius: 0%
+      text-align: center
+    type: state-label
+  - entity: sensor.blank_blank
+    prefix: side press
+    style:
+      left: 46%
+      top: 78%
+      color: rgb(0,0,0)
+      font-size: 90%
+      background-color: rgba(0,0,0,.0)
+      border-radius: 0%
+      text-align: center
+    type: state-label
+  - entity: sensor.low_pressure_side_pressure
+    style:
+      left: 46%
+      top: 79%
+      color: rgb(0,0,0)
+      font-size: 90%
+    type: state-label
+  - entity: sensor.blank_blank
+    prefix: Suction gas
+    style:
+      left: 51.5%
+      top: 75.5%
+      color: rgb(0,0,0)
+      font-size: 90%
+      background-color: rgba(0,0,0,.0)
+      border-radius: 0%
+      text-align: center
+    type: state-label
+  - entity: sensor.suction_gas_temperature
+    style:
+      left: 51.5%
+      top: 76.5%
+      color: rgb(0,0,0)
+      font-size: 90%
+    type: state-label
+  - entity: sensor.blank_blank
+    prefix: hi-press-
+    style:
+      left: 46%
+      top: 85%
+      color: rgb(0,0,0)
+      font-size: 90%
+      background-color: rgba(0,0,0,.0)
+      border-radius: 0%
+      text-align: center
+    type: state-label
+  - entity: sensor.blank_blank
+    prefix: side press
+    style:
+      left: 46%
+      top: 86%
+      color: rgb(0,0,0)
+      font-size: 90%
+      background-color: rgba(0,0,0,.0)
+      border-radius: 0%
+      text-align: center
+    type: state-label
+  - entity: sensor.high_pressure_side_pressure
+    style:
+      left: 46%
+      top: 87%
+      color: rgb(0,0,0)
+      font-size: 90%
+    type: state-label
+  - entity: sensor.blank_blank
+    prefix: Compr gear
+    style:
+      left: 60.5%
+      top: 66%
+      color: rgb(255,255,255)
+      font-size: 90%
+      background-color: rgba(0,0,0,.0)
+      border-radius: 0%
+      text-align: center
+    type: state-label
+  - entity: sensor.compressor_current_gear_2
+    style:
+      left: 60.5%
+      top: 67%
+      color: rgb(255,255,255)
+      font-size: 90%
+    type: state-label
+  - entity: sensor.heatpump
+    style:
+      left: 60.5%
+      top: 71.8%
+      color: rgb(0,0,0)
+      font-size: 90%
+    type: state-label
+  - entity: sensor.blank_blank
+    prefix: Compr speed
+    style:
+      left: 60.5%
+      top: 76.5%
+      color: rgb(255,255,255)
+      font-size: 90%
+      background-color: rgba(0,0,0,.0)
+      border-radius: 0%
+      text-align: center
+    type: state-label
+  - entity: sensor.compressor_speed_percent
+    style:
+      left: 60.5%
+      top: 77.5%
+      color: rgb(255,255,255)
+      font-size: 90%
+    type: state-label
+  - entity: sensor.blank_blank
+    prefix: Compr speed
+    style:
+      left: 60.5%
+      top: 79.5%
+      color: rgb(255,255,255)
+      font-size: 90%
+      background-color: rgba(0,0,0,.0)
+      border-radius: 0%
+      text-align: center
+    type: state-label
+  - entity: sensor.compressor_speed_rpm
+    style:
+      left: 60.5%
+      top: 80.5%
+      color: rgb(255,255,255)
+      font-size: 90%
+    type: state-label
+  - entity: sensor.blank_blank
+    prefix: Discharge pipe
+    style:
+      left: 68%
+      top: 55%
+      color: rgb(0,0,0)
+      font-size: 90%
+      background-color: rgba(0,0,0,.0)
+      border-radius: 0%
+      text-align: center
+    type: state-label
+  - entity: sensor.discharge_pipe_temperature
+    style:
+      left: 68%
+      top: 56%
+      color: rgb(0,0,0)
+      font-size: 90%
+    type: state-label
+  - entity: sensor.blank_blank
+    prefix: Liquid line
+    style:
+      left: 71%
+      top: 90.5%
+      color: rgb(0,0,0)
+      font-size: 90%
+      background-color: rgba(0,0,0,.0)
+      border-radius: 0%
+      text-align: center
+    type: state-label
+  - entity: sensor.liquid_line_temperature
+    style:
+      left: 71%
+      top: 91.5%
+      color: rgb(0,0,0)
+      font-size: 90%
+    type: state-label
+  - entity: sensor.blank_blank
+    prefix: Dew point
+    style:
+      left: 80.6%
+      top: 62%
+      color: rgb(0,0,0)
+      font-size: 90%
+      background-color: rgba(0,0,0,.0)
+      border-radius: 0%
+      text-align: center
+    type: state-label
+  - entity: sensor.blank_blank
+    prefix: Hi press
+    style:
+      left: 80.6%
+      top: 63%
+      color: rgb(0,0,0)
+      font-size: 90%
+      background-color: rgba(0,0,0,.0)
+      border-radius: 0%
+      text-align: center
+    type: state-label
+  - entity: sensor.dew_point_high_pressure_temperature
+    style:
+      left: 80.6%
+      top: 64%
+      color: rgb(0,0,0)
+      font-size: 90%
+    type: state-label
+  - entity: sensor.blank_blank
+    prefix: Bubble point
+    style:
+      left: 80.6%
+      top: 93%
+      color: rgb(0,0,0)
+      font-size: 90%
+      background-color: rgba(0,0,0,.0)
+      border-radius: 0%
+      text-align: center
+    type: state-label
+  - entity: sensor.bubble_point
+    style:
+      left: 80.6%
+      top: 94%
+      color: rgb(0,0,0)
+      font-size: 90%
+    type: state-label
+  - entity: sensor.blank_blank
+    prefix: Subcooling
+    style:
+      left: 71%
+      top: 82%
+      color: rgb(0,0,0)
+      font-size: 90%
+      background-color: rgba(0,0,0,.0)
+      border-radius: 0%
+      text-align: center
+    type: state-label
+  - entity: sensor.sub_cooling_temperature
+    style:
+      left: 71%
+      top: 83%
+      color: rgb(0,0,0)
+      font-size: 90%
+    type: state-label
+  - entity: sensor.blank_blank
+    prefix: '>>Supply>>'
+    style:
+      left: 95.5%
+      top: 71.5%
+      color: rgb(0,0,0)
+      font-size: 90%
+      background-color: rgba(0,0,0,.0)
+      border-radius: 0%
+      text-align: center
+    type: state-label
+  - entity: sensor.blank_blank
+    prefix: Condens out
+    style:
+      left: 92.5%
+      top: 68.5%
+      color: rgb(0,0,0)
+      font-size: 90%
+      background-color: rgba(0,0,0,.0)
+      border-radius: 0%
+      text-align: center
+    type: state-label
+  - entity: sensor.condenser_out_temperature
+    style:
+      left: 92.5%
+      top: 69.5%
+      color: rgb(0,0,0)
+      font-size: 90%
+    type: state-label
+  - entity: sensor.blank_blank
+    prefix: Condenser
+    style:
+      left: 89.5%
+      top: 78%
+      color: rgb(0,0,0)
+      font-size: 90%
+      background-color: rgba(0,0,0,.0)
+      border-radius: 0%
+      text-align: center
+    type: state-label
+  - entity: sensor.blank_blank
+    prefix: DeltaT
+    style:
+      left: 89.5%
+      top: 79%
+      color: rgb(0,0,0)
+      font-size: 90%
+      background-color: rgba(0,0,0,.0)
+      border-radius: 0%
+      text-align: center
+    type: state-label
+  - entity: sensor.condenser_delta_t
+    style:
+      left: 89.5%
+      top: 80%
+      color: rgb(0,0,0)
+      font-size: 90%
+    type: state-label
+  - entity: sensor.blank_blank
+    prefix: COP
+    style:
+      left: 96%
+      top: 78%
+      color: rgb(0,0,0)
+      font-size: 90%
+      background-color: rgba(0,0,0,.0)
+      border-radius: 0%
+      text-align: center
+    type: state-label
+  - entity: sensor.heatpump_cop
+    style:
+      left: 96%
+      top: 79%
+      color: rgb(0,0,0)
+      font-size: 90%
+    type: state-label
+  - entity: sensor.blank_blank
+    prefix: Pump speed
+    style:
+      left: 92%
+      top: 85.5%
+      color: rgb(0,0,0)
+      font-size: 90%
+      background-color: rgba(0,0,0,.0)
+      border-radius: 0%
+      text-align: center
+    type: state-label
+  - entity: sensor.condenser_circulation_pump_speed
+    style:
+      left: 92%
+      top: 86.5%
+      color: rgb(0,0,0)
+      font-size: 90%
+    type: state-label
+  - entity: sensor.blank_blank
+    prefix: Condens in
+    style:
+      left: 96.8%
+      top: 93%
+      color: rgb(0,0,0)
+      font-size: 90%
+      background-color: rgba(0,0,0,.0)
+      border-radius: 0%
+      text-align: center
+    type: state-label
+  - entity: sensor.condenser_in_temperature
+    style:
+      left: 96.8%
+      top: 94%
+      color: rgb(0,0,0)
+      font-size: 90%
+    type: state-label
+  - entity: sensor.blank_blank
+    prefix: <<Return<<
+    style:
+      left: 95.5%
+      top: 83.5%
+      color: rgb(0,0,0)
+      font-size: 90%
+      background-color: rgba(0,0,0,.0)
+      border-radius: 0%
+      text-align: center
+    type: state-label
+image: /local/community/HA_WP.png
+type: picture-elements
