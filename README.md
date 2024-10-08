@@ -15,6 +15,6 @@ Steps to get started:
 2) Create a new dashboard;
 3) Edit the dashboard and edit the view => Select Panel (1 card);
 4) Add a Picture elements card;
-5) Edit the Picture elements card and paste the code;
+5) Edit the Picture elements card and paste the code 'PictureElementsCardCode';
 6) To enable the text descriptions on the Picture elements card, add the 'blank_blank' code (copy/paste!) to your configuration.yaml template section and reload template entities:
 7) Enjoy!
