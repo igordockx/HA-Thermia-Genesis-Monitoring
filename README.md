@@ -14,7 +14,9 @@ Steps to get started:
 
 1) Download 'HA_HEATPUMP.png' and upload it to a local folder on your Home Assistant instance (eg /config/www/community/);
   
-2) Download the file 'thermiacalibradiy.yaml' and upload it to your Config folder. Link to this file by adding the following code to your configuration.yaml and reboot:
+2) Download the file 'thermiacalibradiy.yaml' and upload it to your Config folder.
+3) Open the file and add your heatpump's IP address to the line 'host: 192.168.x.x'
+4) Link to the file by adding the following code to your configuration.yaml and reboot:
 
 ```
 homeassistant:
