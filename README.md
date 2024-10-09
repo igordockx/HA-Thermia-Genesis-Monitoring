@@ -29,7 +29,13 @@ homeassistant:
 7) To enable the text descriptions on the Picture elements card, add the following code (copy/paste!) to your configuration.yaml template section and reload template entities:
 
 ```
-
+###########################################
+###Text element on picture elements card###
+###########################################
+template:
+  - sensor:
+    - name: blank_blank
+      state: " "
 ```
    
 8) Enjoy!
