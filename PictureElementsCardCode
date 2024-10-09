@@ -548,24 +548,6 @@ elements:
       font-size: 90%
     type: state-label
   - entity: sensor.blank_blank
-    prefix: COP
-    style:
-      left: 96%
-      top: 78%
-      color: rgb(0,0,0)
-      font-size: 90%
-      background-color: rgba(0,0,0,.0)
-      border-radius: 0%
-      text-align: center
-    type: state-label
-  - entity: sensor.heatpump_cop
-    style:
-      left: 96%
-      top: 79%
-      color: rgb(0,0,0)
-      font-size: 90%
-    type: state-label
-  - entity: sensor.blank_blank
     prefix: Pump speed
     style:
       left: 92%
@@ -612,5 +594,5 @@ elements:
       border-radius: 0%
       text-align: center
     type: state-label
-image: /local/community/HA_WP.png
+image: /local/community/HA_HEATPUMP.png
 type: picture-elements
