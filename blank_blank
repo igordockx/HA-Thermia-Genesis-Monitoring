@@ -1,7 +1,0 @@
-###########################################
-###Text element on picture elements card###
-###########################################
-template:
-  - sensor:
-    - name: blank_blank
-      state: " "
