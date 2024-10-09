@@ -43,3 +43,4 @@ template:
 Note: By hovering over the Picture elements card you will see which sensor entities are being used. Those entities will need to be enabled in the thermiagenesis integration.
 
 As standard, the heatpump will only take the outdoor temp into account.
+If you also monitor the actual room temperature, it's nice to display this on the card as well.
