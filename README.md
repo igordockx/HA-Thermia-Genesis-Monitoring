@@ -14,7 +14,7 @@ Steps to get started:
 
 1) Download the 'HA_HEATPUMP' GIF and upload it to a local folder on your Home Assistant instance (eg /config/www/community/);
   
-2) Create a file called thermiacalibradiy.yaml in your Config folder and copy/paste the code from 'thermiacalibradiy' into it. Link to this file in your configuration.yaml by adding:
+2) Download the file 'thermiacalibradiy.yaml' and upload it to your Config folder. Link to this file by adding code below to your configuration.yaml and reboot:
 
 ```
 homeassistant:
@@ -22,9 +22,14 @@ homeassistant:
     thermiacalibra: !include thermiacalibradiy.yaml
 ```
 
-4) Create a new dashboard;
-5) Edit the dashboard and edit the view => Select Panel (1 card);
-6) Add a Picture elements card;
-7) Edit the Picture elements card and paste the code 'PictureElementsCardCode';
-8) To enable the text descriptions on the Picture elements card, add the 'blank_blank' code (copy/paste!) to your configuration.yaml template section and reload template entities:
-9) Enjoy!
+3) Create a new dashboard;
+4) Edit the dashboard and edit the view => Select 'Panel (1 card)';
+5) Add a Picture elements card;
+6) Edit the Picture elements card and paste the code 'PictureElementsCardCode';
+7) To enable the text descriptions on the Picture elements card, add the following code (copy/paste!) to your configuration.yaml template section and reload template entities:
+
+```
+
+```
+   
+8) Enjoy!
