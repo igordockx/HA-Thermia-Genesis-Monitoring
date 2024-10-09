@@ -24,11 +24,11 @@ homeassistant:
     thermiacalibra: !include thermiacalibradiy.yaml
 ```
 
-3) Create a new dashboard;
-4) Edit the dashboard and edit the view: Select 'Panel (1 card)';
-5) Add a Picture elements card to the dashboard;
-6) Edit the Picture elements card and paste the code found in 'PictureElementsCardCode';
-7) To enable the text descriptions on the Picture elements card, add the following code (copy/paste!) to your configuration.yaml template section and reload template entities:
+5) Create a new dashboard;
+6) Edit the dashboard and edit the view: Select 'Panel (1 card)';
+7) Add a Picture elements card to the dashboard;
+8) Edit the Picture elements card and paste the code found in 'PictureElementsCardCode';
+9) To enable the text descriptions on the Picture elements card, add the following code (copy/paste!) to your configuration.yaml template section and reload template entities:
 
 ```
 ###########################################
@@ -40,7 +40,7 @@ template:
       state: " "
 ```
    
-8) Enjoy!
+10) Enjoy!
 
 Note: By hovering over the Picture elements card you will see which sensor entities are being used. Those entities will need to be enabled in the thermiagenesis integration.
 
