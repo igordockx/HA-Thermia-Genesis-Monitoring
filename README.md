@@ -12,7 +12,7 @@ The sensor data which is not available from the https://github.com/CJNE/thermiag
 
 Steps to get started:
 
-1) Download the 'HA_HEATPUMP' GIF and upload it to a local folder on your Home Assistant instance (eg /config/www/community/);
+1) Download 'HA_HEATPUMP.png' and upload it to a local folder on your Home Assistant instance (eg /config/www/community/);
   
 2) Download the file 'thermiacalibradiy.yaml' and upload it to your Config folder. Link to this file by adding the following code to your configuration.yaml and reboot:
 
@@ -41,3 +41,5 @@ template:
 8) Enjoy!
 
 Note: By hovering over the Picture elements card you will see which sensor entities are being used. Those entities will need to be enabled in the thermiagenesis integration.
+
+As standard, the heatpump will only take the outdoor temp into account.
