@@ -28,7 +28,7 @@ homeassistant:
 6) Edit the dashboard and edit the view: Select 'Panel (1 card)';
 7) Add a Picture elements card to the dashboard;
 8) Edit the Picture elements card and paste the code found in 'PictureElementsCardCode';
-9) To enable the text descriptions on the Picture elements card, add the following code (copy/paste!) to your configuration.yaml template section and reload template entities:
+9) To enable the text descriptions on the Picture elements card, and to calculate the temperature difference deltaT of the heatpump's brine and condenser heat exchangers, add the following code (copy/paste!) to your configuration.yaml template section and reload template entities:
 
 ```
 ###########################################
@@ -36,6 +36,12 @@ homeassistant:
 ###########################################
 template:
   - sensor:
+    - name: Brine delta T
+      unit_of_measurement: "°C"
+      state: "{{ (( states('sensor.brine_in_temperature') | float ) - ( states('sensor.brine_out_temperature') | float )) | round(2) }}"
+    - name: Condenser delta T
+      unit_of_measurement: "°C"
+      state: "{{ (( states('sensor.condenser_out_temperature') | float ) - ( states('sensor.condenser_in_temperature') | float )) | round(2) }}"
     - name: blank_blank
       state: " "
 ```
